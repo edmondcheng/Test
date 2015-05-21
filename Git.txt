@@ -1,3 +1,5 @@
+Commit initial version
+
 Git Installation
 
 1.	Link: http://msysgit.github.io/
@@ -15,7 +17,7 @@ git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 
 7.	Editor shortcut -- in .bash_profile, add
-alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+alias sublime="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
 
 8.	Restart Git Bash -- close and restart
 
@@ -28,4 +30,7 @@ git diff previous current -- find differences
 git clone -- copy repository
 git checkout -- check out operation of a certain branch
 
+git status -- check status
+git add -- add files to staging area
+git commit -- commit changes
 
